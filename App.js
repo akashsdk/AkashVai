@@ -7,6 +7,7 @@ const App = () => {
         fontSize: 40,
         marginTop: 100,
         marginLeft:20,
+        color:"red",
       }}>akakshhdf</Text>
     </ScrollView>
   )
