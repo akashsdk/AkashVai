@@ -3,7 +3,12 @@ import { ScrollView, View, Text, TouchableOpacity, Dimensions } from 'react-nati
 import  Button  from './component/Button';
 
 export default function App() {
-  const [a, setA] 
+  const [a, setA] = userSelect: ('ok')
+  return (
+    <View>
+      <Button></Button>
+    </View>
+  )
 }
 const App = () => {
   
