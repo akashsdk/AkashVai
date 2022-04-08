@@ -4,6 +4,7 @@ import  Button  from './component/Button';
 const App = () => {
   return (
     <View>
+    <Button/>
       <View style={{
         height: 70,
         marginTop: 40,
