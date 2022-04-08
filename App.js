@@ -8,6 +8,7 @@ const App = () => {
         marginTop: 40,
         display: 'flex',
         flexDirection: 'row'
+        
       }}>
         <View style={{
           backgroundColor: 'red',
