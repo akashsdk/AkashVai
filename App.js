@@ -2,12 +2,13 @@ import React from 'react';
 import { ScrollView, View, Text, TouchableOpacity, Dimensions } from 'react-native';
 import  Button  from './component/Button';
 const App = () => {
+  
   return (
     <View>
     <Button/>
       <View style={{
         height: 70,
-        marginTop: 40,
+        marginTop: 41,
         display: 'flex',
         flexDirection: 'row'
 
