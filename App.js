@@ -22,7 +22,7 @@ const App = () => {
         <Text style={{
           margin: 20,
           fontSize: 30
-        }}>Sathi Shikdar</Text>
+        }}>Sathi Shikdar fnot</Text>
       </View>
       <ScrollView>
 
