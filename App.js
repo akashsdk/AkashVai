@@ -21,7 +21,7 @@ const App = () => {
         }}></View>
         <Text style={{
           margin: 20,
-          fontSize: 40
+          fontSize: 30,
         }}>Sathi Shikdar fnot</Text>
       </View>
       <ScrollView>
