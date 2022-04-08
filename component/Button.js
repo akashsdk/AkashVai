@@ -4,7 +4,11 @@ import { ScrollView, View, Text, TouchableOpacity, Dimensions } from 'react-nati
      return (
          <TouchableOpacity onPress={() =>{
              let a=10;
-             concol
+             console.log(a);
+         }} style={{
+             height:30,
+             width: 30,
+             backgroundColor:'red'
          }}>
 
          </TouchableOpacity>
