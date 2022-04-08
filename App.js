@@ -1,5 +1,6 @@
 import React from 'react';
 import { ScrollView, View, Text, TouchableOpacity, Dimensions } from 'react-native';
+import  Button  from './component/Button';
 const App = () => {
   return (
     <View>
@@ -8,7 +9,7 @@ const App = () => {
         marginTop: 40,
         display: 'flex',
         flexDirection: 'row'
-        
+
       }}>
         <View style={{
           backgroundColor: 'red',
