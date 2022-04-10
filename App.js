@@ -10,7 +10,6 @@ export default function App() {
       <Button a={a} setA={setA}/>
       <Button a={a} color='blue' setA={setA}/>
       <Button a={a} setA={setA}/>
-      <Button a={a} color='red' setA={setA}/>
     </View>
   );
 }
