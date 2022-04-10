@@ -1,12 +1,16 @@
-import React from 'react';
-import { ScrollView, View, Text, TouchableOpacity, Dimensions } from 'react-native';
-import  Button  from './component/Button';
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View, TouchableOpacity, TextInput } from 'react-native';
+import { useState } from 'react'
+import Button from './component/Button'
 
 export default function App() {
-  const [a, setA] = userSelect ('ok')
+  const [a, setA] = useState('ok')
   return (
     <View>
-      <Button/>
+      
+      <Button a={a} setA={setA}/>
+      <Button a={a} color='blue' setA={setA}/>
+      <Button a={a} setA={setA}/>
     </View>
-  )
+  );
 }
