@@ -6,11 +6,10 @@ import Button from './component/Button'
 export default function App() {
   const [a, setA] = useState('ok')
   return (
-    <View>
-      
+    <View> 
       <Button a={a} setA={setA}/>
       <Button a={a} color='blue' setA={setA}/>
-      <Button a={a} setA={setA}/>
+      <Button a={a} color='blue' setA={setA}/>
     </View>
   );
 }
