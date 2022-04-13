@@ -3,7 +3,7 @@ import {TouchableOpacity,Text} from 'react-native'
 
 const Button = (props) => {
     return (
-        <TouchableOpacity onPress={()=>props.setA('submit')} style={{
+        <TouchableOpacity onPress={()=>{}} style={{
             
             width:300,
             height:100,
