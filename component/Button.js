@@ -15,7 +15,7 @@ const Button = (props) => {
         }}>
             <Text style={{
                 color:'black',
-                fontSize:30
+                fontSize:31
             }}>{props.a}</Text>
 
 
